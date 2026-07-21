@@ -54,9 +54,9 @@ if generate:
         with st.spinner("Generating AI reply..."):
             try:
                 response = requests.post(
-                    "http://127.0.0.1:8000/generate",
-                    json=payload
-                )
+    "https://ai-email-reply-generator-b2bk.onrender.com/generate",
+    json=payload
+)
                 if response.status_code == 200:
                     reply = response.json()["reply"]
                     st.subheader("✨ Generated Reply")
