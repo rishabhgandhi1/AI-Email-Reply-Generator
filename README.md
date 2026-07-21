@@ -68,6 +68,9 @@ Tools
 
 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 AI-Email-Reply-Generator
 │
 ├── backend
@@ -89,7 +92,7 @@ AI-Email-Reply-Generator
 │
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+└── .gitignore```
 
 Create a .env file inside backend directory.
 
